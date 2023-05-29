@@ -1,0 +1,29 @@
+<!--pages/tmonkey/tmonkey.wxml-->
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/d81744ed15d64d5a8c4582742270124c.png?auth_key=1674753715-51a74b37b9ff40a7ad9d19fecae5b9fe-578061194-20d8f7acf950370210a29e82480e13eb"></image>
+</view>
+
+
+<text class="b1" >Tampermonkey一个非常流行的浏览器扩展，它可以运行由广大社区编写的扩展脚本，来实现各式各样的功能，常见的去广告、修改样式文件、解析视频。\n\n</text>
+
+<image class="c1" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/78f2f6221977435da83b0fdefe8f1e0c.png?auth_key=1674988850-7a057726828e4a2da48b48243681d6ef-578061194-99ba40d0effe530ff7c26205bfab8ba0" ></image>
+
+<text class="b1" >\n\n\n\n脚本获取可以去油叉(https://greasyfork.org/zh-CN)，GreasyFork 或许是最受欢迎的后起之秀了。它由 Jason Barnabe 创建,Jason Barnabe 同时也是Stylish 网站的创办者,在其储存库中有大量的脚本资源。\n\n</text>
+
+<image class="c2" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/b2f91261dbd343ada47dc52a612760f3.png?auth_key=1674989325-0f0e2ff7dbc649d2a04a63d82bd4daa2-578061194-b916a5f7cf515372c66710f81b5e06b1" ></image>
+
+<text class="b1" >\n\n一键获取安装，非常滴银杏非常滴方便\n\n</text>
+
+<image class="c4" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/0c0fd0eb835a47c68b540db498a2fe20.png?auth_key=1674990212-9c6d221e373341d3a54cfbec7c254391-578061194-4d20f8bbf2332845b94007aa21a904db"></image>
+
+
+
+<text class="b1" >\n\n\n\n浏览器插件的功能的确非常强大， 但相对来说，它们会占用更多的浏览器资源，拖慢访问速度。而特定功能的脚本只有在特定的网站上才会生效，当你在访问其他网站时，这些脚本就处于关闭状态。这样就能达到节约系统资源的目的，再也不用担心浏览器占内存占cpu的问题了。\n\n\n\n</text>
+
+<text class="b1" >在油猴管理面板中右键脚本可查看源码并编辑，用户可根据需求修改并保存\n\n</text>
+
+<image class="c3" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/058683552cdf44b998c7d18d4c4c4b04.png?auth_key=1674989816-edfec6127af54a5892b0b4193319345e-578061194-803ede0f3d7c24bad830973631eeda9a"></image>
+
+<text>\n\n\n\n</text>
+<image class="c5" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/bfac6cf1cb8c4d6ebfc248a76a6096b8.png?auth_key=1674991261-bf9b150aa7a14d59adc8c059c52266c3-578061194-61b162402714ecea81eaf8da030e57a2" ></image>
+
