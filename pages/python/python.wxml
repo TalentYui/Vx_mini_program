@@ -1,0 +1,123 @@
+<!--pages/python/python.wxml-->
+
+
+
+
+
+
+
+
+<text>\n</text>
+
+<view bindtap="s1">
+  <image src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/49000f2579f04f98b72e260df4e9dfeb.png?auth_key=1669696536-d27e67fabb834036a4656b794e5237da-578061194-f116daee81ccb504f0f5d538e768b823" ></image>
+</view>
+
+
+<text>\n</text>
+
+
+<view bindtap='s2'>
+<image src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/a2fa59c8fb2a41db850c6dd3e715b425.png?auth_key=1669696536-d27e67fabb834036a4656b794e5237da-578061194-f116daee81ccb504f0f5d538e768b823" ></image>
+</view>
+
+
+<text>\n</text>
+
+
+<view bindtap='s3'>
+  <image src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/079b5df310e14bbaa8e43406b2b063b9.png?auth_key=1669696536-d27e67fabb834036a4656b794e5237da-578061194-f116daee81ccb504f0f5d538e768b823" ></image>
+</view>
+
+<text>\n</text>
+
+
+<view bindtap='s4'>
+  <image src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/f76174607b8d4fc0b4eab680598f34ed.png?auth_key=1669696536-d27e67fabb834036a4656b794e5237da-578061194-f116daee81ccb504f0f5d538e768b823" ></image>
+</view>
+
+<text>\n</text>
+
+
+<view bindtap='s5'>
+  <image src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/c5890e07fdef4549a60ea2405cc79a18.png?auth_key=1669696536-d27e67fabb834036a4656b794e5237da-578061194-f116daee81ccb504f0f5d538e768b823" ></image>
+</view>
+
+<text>\n</text>
+
+
+<view bindtap='s6'>
+  <image src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/3924398ab2dd4a46bee0e83eb6392ebb.png?auth_key=1669696536-d27e67fabb834036a4656b794e5237da-578061194-f116daee81ccb504f0f5d538e768b823" ></image>
+</view>
+
+<text>\n</text>
+
+
+<view bindtap='s7'>
+  <image src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/1c897239d1d64b719c9573618eccd95a.png?auth_key=1669696536-d27e67fabb834036a4656b794e5237da-578061194-f116daee81ccb504f0f5d538e768b823" ></image>
+</view>
+
+<text>\n</text>
+
+
+<view bindtap='s8'>
+  <image src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/24cafa54577e407c9e2a963cc2d5bde1.png?auth_key=1669696536-d27e67fabb834036a4656b794e5237da-578061194-f116daee81ccb504f0f5d538e768b823" ></image>
+</view>
+
+<text>\n</text>
+
+
+<view bindtap='s9'>
+  <image src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/114101893b6643b291994c8ecc1f2989.png?auth_key=1669696536-d27e67fabb834036a4656b794e5237da-578061194-f116daee81ccb504f0f5d538e768b823" ></image>
+</view>
+
+<text>\n</text>
+
+
+<view bindtap='s10'>
+  <image src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/6ceca1ee3dab46358fb1db74a187476c.png?auth_key=1669696536-d27e67fabb834036a4656b794e5237da-578061194-f116daee81ccb504f0f5d538e768b823" ></image>
+</view>
+
+<text>\n</text>
+
+
+<view bindtap='s11'>
+  <image src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/d1a881bcfc0341e09fecc2b656d362eb.png?auth_key=1669696536-d27e67fabb834036a4656b794e5237da-578061194-f116daee81ccb504f0f5d538e768b823" ></image>
+</view>
+
+<text>\n</text>
+
+
+<view bindtap='s12'>
+  <image src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/0f260611824544919e56d7419a24ae90.png?auth_key=1669696536-d27e67fabb834036a4656b794e5237da-578061194-f116daee81ccb504f0f5d538e768b823" ></image>
+</view>
+
+<text>\n</text>
+
+
+<view bindtap='qz'>
+  <image src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/6cab1f25960d4d4f97fa5a69b19a8597.png?auth_key=1669696536-d27e67fabb834036a4656b794e5237da-578061194-f116daee81ccb504f0f5d538e768b823" ></image>
+</view>
+
+<text>\n</text>
+
+
+<view bindtap='qm'>
+  <image src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/fbabbfe8f2ec4b9aaefd9aaf2fff7234.png?auth_key=1669696536-d27e67fabb834036a4656b794e5237da-578061194-f116daee81ccb504f0f5d538e768b823" ></image>
+</view>
+
+
+
+<view class="container">
+  <view class="modal-mask" wx:if="{{showModal}}">
+    <view class="modal">
+      <view class="modal-content">
+        <view class="modal-message">{{message}}</view>
+        <view class="modal-countdown">{{countdown}} 秒后可关闭</view>
+      </view>
+      <view class="modal-footer">
+        <button class="modal-button" wx:if="{{countdown === 0}}" bindtap="hideModal">确定</button>
+      </view>
+    </view>
+  </view>
+</view>

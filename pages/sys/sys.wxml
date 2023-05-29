@@ -1,0 +1,38 @@
+<!--pages/sys/sys.wxml-->
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/8c2fb996278e4446a6b29251b34589bd.png?auth_key=1669701041-51b49ec1c9964911b206af3306258ab1-578061194-0715958f9485c3c2c7ecbfb845d96684"></image>
+</view>
+
+
+
+<text>\n</text>
+<image bindtap="py3" class="c1" src="https://gdesign-dam.dancf.com/23120656548774933/c55d1cc8b4f84d01af3d3c3a728c143b.png?auth_key=1676445997-feffe24d87e149d196d0d253b562d8dd-9019623401519720483-fa1fd8fe12b1fd8afdc81269b9639d2a" ></image>
+
+
+
+
+<text>\n</text>
+  <image bindtap="hls" class="c1" src="https://gdesign-dam.dancf.com/23120037418782797/e688526a0e37472a9e240afb5c43fdfc.png?auth_key=1681405239-f6e74d586e7e463086d660432b25b913-9019623401519720483-3448c8912b3c0ac91aa870f50b4d9df9">/</image>
+ 
+
+
+
+
+<view >
+  <image class="c1" src="https://gdesign-dam.dancf.com/23120960646172720/eda432eb11d94d889669da666e32e8ff.png?auth_key=1676448315-12e012f3bd084d9fb1d008ec6968126d-9019623401519720483-e34eddc5c40a009e73808f0b5b0b7070" mode="aspectFit" bindtap="showTip" />
+  <view class="tip {{tipHidden?'hide':'show'}}">{{tipContent}}</view>
+</view>
+
+
+
+<view >
+  <image class="c1" src="https://gdesign-dam.dancf.com/23120960646303802/20cab8b6b8c540e9be66256b2cb79ab9.png?auth_key=1676448315-12e012f3bd084d9fb1d008ec6968126d-9019623401519720483-e34eddc5c40a009e73808f0b5b0b7070" mode="aspectFit" bindtap="showTip" />
+  <view class="tip {{tipHidden?'hide':'show'}}">{{tipContent}}</view>
+</view>
+
+
+
+<view >
+  <image class="c1" src="https://gdesign-dam.dancf.com/23120037418782797/46ffecf5b94b495299a61ed6d87c28e5.png?auth_key=1681405765-bb8992d413ec4bc2b60c32081b4714d3-9019623401519720483-5ece70f8ae685ce9eb6fe61dcfa44644" mode="aspectFit" bindtap="showTip" />
+  <view class="tip {{tipHidden?'hide':'show'}}">{{tipContent}}</view>
+</view>

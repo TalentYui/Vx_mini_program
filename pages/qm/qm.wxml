@@ -1,0 +1,113 @@
+<!--pages/qm/qm.wxml-->
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/c0c16d1e132640bfbe9d6563169ce25f.gif?auth_key=1669703197-a03393b9e486407aada48ea5b99f24ae-578061194-ce8f0d9581a59f50ecfa7d5c1db8c1e0"></image>
+</view>
+
+<view class="sqm">
+  <text space="ensp" decode="&lt;&gt;">#求和
+def sum(x):
+    t2 = list(x)
+    a = 0
+    for k in range(len(t2)):
+        a = a + int(t2[k])
+    return a
+
+n=input()
+print(sum(n))
+
+#水仙花
+N=int(input())
+
+for i in range(100,N+1):
+    a=i//100
+    b=(i-a*100)//10
+    c=(i-a*100-b*10)
+    if a**3+b**3+c**3==i:
+        print(i)
+
+        #素数
+def f(x):
+    t = int(x)
+
+    b = 1
+    for i in range(2, t):
+        if t % i == 0:
+            b = 0
+            break
+
+    k = x[::-1]
+    t1 = int(k)
+
+    d = 1
+    for i in range(2, t1):
+        if t1 % i == 0:
+            d = 0
+            break
+
+    if b == 0:
+        return 'no'
+
+    else:
+        if d == 0:
+            return 'no'
+        else:
+            return 'yes'
+
+n=input()
+print(f(n))
+
+#温度转化
+c=int(input())
+f=c*9/5+32
+d=("{:.1f}".format(f))
+print(d)
+
+
+1.   D.x={1:1}
+2.   B. _abc
+3.   B def vfunc(*a,b):
+4.   B. 每个continue语句只有能力跳出当前层次的循环
+5.   C. 设a=10；b=20，执行a,b=a,a+b  print(a,b)和a=b;b=a+b  print(a,b)之后，得到同样的输出结果：1030
+6.   B. x**y表示x的y次幂，其中，y必须是整数
+7.   A. 元组中元素不可以是元组
+8.   B 参数的值是否改变与函数中对变量的操作有关，与参数类型无关
+9.   C do
+10.  B. while 1&lt;10:     time.sleep（10）
+11.   D.函数可以没有return语句
+12.  D.6 brown tomato
+13.  D.dlrow olleh
+14.  C 可选参数可以定义在非可选参数的前面
+15.   B. 10
+16.  D ls.clear()：删除ls的最后一个元素
+17.  A 函数必须有返回值
+18.  C f = lambda x,y:x+y 执行后，f的类型为数字类型
+19.  C 45
+20.  D 代码中n是可选参数
+
+
+填空
+1.  表达式int('123', 16)的值为     291      【 正确答案: 291】 。
+2.  使用pip工具在线安装Excel文件操作扩展库openpyxl的完整命令是     pip install openpyxl      【 正确答案: pip install openpyxl】。
+3.   Python 3.x语句print(1, 2, 3, sep=',')的输出结果为     1,2,3      【 正确答案: 1,2,3】。
+4.   语句x = 3==3, 5执行结束后，变量x的值为     (True,5)      【 正确答案: (True,5)】。
+5.   表达式[1, 2, 3]*3的值为     [1,2,3,1,2,3,1,2,3]      【 正确答案: [1,2,3,1,2,3,1,2,3]】。
+6.   表达式-13 // 4的值为     -4      【 正确答案: -4】
+7.   表达式chr(ord('D')+2)的值为     'F'      【 正确答案: ‘F’ 或 "F" 或 F】。
+8.   列表、元组、字符串是Python的     有序      【 正确答案: 有序】 (有序、无序？)序列。
+9.   表达式set([1, 1, 2, 3])的值为     {1,2,3}      【 正确答案: {1,2,3}】
+10.表达式list(range(10, 1, -3))的值为     [10,7,4]      【 正确答案: [10,7,4]】。
+
+判断
+1.  Python程序中，'4'和4是相等的。【错误】
+2.  Python程序是由Python编译器解释执行的。【正确】
+3.   Python程序中，变量的名字可以用下划线或数字打头。【错误】
+4.   Python程序中，变量的名字是区分大小写的。【正确】
+5.   列表的构成。一个列表可以包含0个，1个或多个元素。【正确】
+6.   Python程序中，第一次向变量赋值的时候定义变量。【正确】
+7.   程序能够运行，但结果不对，这是一种语法错误。【错误】
+8.   访问列表。可以用负数下标访问列表元素。下标-1对应列表最后一个元素。【正确】
+9.   列表的定义。定义列表必须使用方括号。【错误】
+10.开发python程序必须使用Pycharm软件。【错误】
+</text>
+</view>

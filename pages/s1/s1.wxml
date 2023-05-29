@@ -1,0 +1,86 @@
+<!--pages/s1/s1.wxml-->
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/c0c16d1e132640bfbe9d6563169ce25f.gif?auth_key=1669703197-a03393b9e486407aada48ea5b99f24ae-578061194-ce8f0d9581a59f50ecfa7d5c1db8c1e0"></image>
+</view>
+
+
+
+<view class="ss1">
+  <text space="ensp">#世界你好
+a="hello world!"
+print(a)
+
+
+#心里话
+a=input()
+b=input()
+print(a+",you are,"+b)
+
+
+#温度转换
+t1=float(input())
+F=(t1*9/5+32)
+print("{:.1f}".format(F))
+
+
+#蟒蛇
+import turtle
+t1=turtle.Turtle()
+t1.goto(-400,0)
+pthonsize = 20
+t1.pensize(10)
+t1.pencolor('red')
+t1.seth(-40)
+rad=2*40;angle=80;len=3;neckrad=20
+for i in range(len):
+      t1.circle(rad,angle)
+      t1.circle(-rad,angle)
+t1.circle(rad,angle/2)
+t1.fd(rad)
+t1.circle(neckrad+1 , 180)
+t1.fd(rad*2/3)
+print(len)
+t1.screen.mainloop()
+
+
+选择
+1. C. 世界，你好
+2. B. Python 3.x代码无法向下兼容Python 2.x的既有语法
+3. B. 依赖平台
+4. D print('Hello World')
+5. B exit()
+6. D 变量声明：Python语言具有使用变量需要先定义后使用的特点
+7. C Python语言的单行注释以单引号 ' 开头
+8. C. 命令提示符
+9. C.   '100'
+10. C a=#27
+
+填空
+1.
+(1) 第一条语句执行后，变量a是     27      【 正确答案: 27】这个值的名字。
+
+(2) 第二条语句执行后，变量b是     27      【 正确答案: 27】这个值的名字。这个值拥有两个名字。
+
+(3) 第三条语句执行后，变量b是     32      【 正确答案: 32】这个值的名字。变量a是     27      【 正确答案: 27】这个值的名字。
+
+2.
+第一行代码定义了变量     pi      【 正确答案: pi】，它成为3.14159这个值的名称。
+
+第二行代码定义了变量     meter      【 正确答案: meter】，它成为圆周长这个值的名称。
+
+第四行代码定义了变量     name      【 正确答案: name】，它是键盘输入的姓名的名称。
+
+判断
+1.   Python程序中，变量引用对象，也就是说变量是对象的名称。【正确】
+2.   Python程序中，input()函数返回的对象是字符串类型的。【正确】
+3.   创建一个变量后，不能改变它的值。【错误】
+
+</text>
+</view>
+
+
+
+
+
+

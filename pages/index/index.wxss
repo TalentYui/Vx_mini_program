@@ -1,0 +1,95 @@
+/**index.wxss**/
+
+
+
+
+.c4{
+  height: 110rpx !important;
+  width: 30% !important;
+  margin-top: 40rpx;
+  border-radius: 20rpx;
+  background: linear-gradient(to right, #139ae2, #c63ae9);
+  color: rgb(213, 235, 88);
+  font-size: 6mm;
+  font-family: cursive;
+  
+
+
+}
+
+.c5{
+  width: 320rpx;
+  height: 305rpx;
+  margin-left: 70%;
+  margin-top: -29%;
+  position: absolute;
+}
+
+.bg{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+
+
+}
+
+
+
+
+.b1{
+  position: relative;
+  position: absolute;
+  top: 24.5%;
+  left: -13%;
+  height: 130rpx !important;
+  width: 27% !important;
+  background: linear-gradient(to right, #139ae2, #c63ae9);
+  color: rgb(213, 235, 88);
+  
+
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007aff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  margin-top: -390px;
+  border-radius: 50%;
+}
+
+.username {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #90f08dd0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.jump-btn {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+
+
+
+
+
+
+

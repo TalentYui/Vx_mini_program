@@ -1,0 +1,47 @@
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gdesign-dam.dancf.com/23120036855826451/ec9430761087415e86e1fa28fdb992c2.jpg?auth_key=1676441265-452eca62a866442280bb4a080cd50d19-9019623401519720483-e70d4f1ec92e9e33535dc486af8ac616"></image>
+</view>
+
+
+
+<text>\n</text>
+
+<image class="c1" src="https://gdesign-dam.dancf.com/23121114758792239/6a738f688b804aafa16e3db7d75b0d54.gif?auth_key=1676449489-020449bc0685436fb449ab4b22da3261-9019623401519720483-2b86ff5c6d90ea0827252dc7e8c93387" ></image>
+
+
+
+
+<view >
+
+
+<view>
+  <textarea class="p" bindinput="onInput" maxlength="1000" placeholder="请输入Python代码...(接口很严格，注意用英文符号)" value="{{varName}}"></textarea>
+  <text class="counter">{{inputLength}}/1000</text>
+</view>
+
+
+
+
+
+
+
+
+
+  <text>\n</text>
+
+
+
+
+
+
+
+  <textarea class="p2" placeholder="标准输入..." value="{{stdin}}" bindinput="stdin">
+  <text>\n\n</text>
+  
+  </textarea><button class="btn" type="primary" bindtap="onRun">Run</button>
+  
+
+  
+  <text>\n</text>
+  <textarea class="p3" value="{{result}}" placeholder="运行结果..."></textarea>
+</view>

@@ -1,0 +1,115 @@
+<!--pages/s9/s9.wxml-->
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/c0c16d1e132640bfbe9d6563169ce25f.gif?auth_key=1669703197-a03393b9e486407aada48ea5b99f24ae-578061194-ce8f0d9581a59f50ecfa7d5c1db8c1e0"></image>
+</view>
+
+<view class="ss9">
+  <text space="ensp" decode="&lt;&gt;">#删除重复字符
+t1=input()
+t1=list(t1)
+t1=t1[::-1]
+for i in t1:
+    b=t1.count(i)
+    if b>1:
+        t1.remove(i)
+t1=t1[::-1]
+for i in t1:
+    b=t1.count(i)
+    if b>1:
+        t1.remove(i)
+t1=''.join(t1)
+print(t1)
+
+
+#利用turtle绘制六角星
+import turtle
+bianchang = int(input())
+L = bianchang
+N=6
+jiaodu=180-360/(N)
+tl=turtle.Turtle()
+tl.speed(5)
+tl.screen.delay(20)
+def f1():
+    tl.fillcolor("yellow")
+    tl.begin_fill()
+    for i in range(3):
+        tl.fillcolor()
+        tl.forward(L)
+        tl.right(120)
+    tl.end_fill()
+for i in range(N):
+    tl.left(jiaodu)
+    tl.penup()
+    tl.forward(L)
+    tl.pendown()
+    tl.right(180)
+    f1()
+tl.fillcolor("red")
+tl.begin_fill()
+for i in range(N):
+    tl.left(jiaodu)
+    tl.forward(L)
+    tl.right(180)
+tl.end_fill()
+turtle.done()
+
+
+#绘制彩色标靶盘
+import turtle as t
+mytl=t.Turtle()
+mytl.speed(6)
+r=20
+x = range(9,0,-1)
+mycolor=["pink","purple","red","blue","yellow","orange","coral","brown","yellow","fuchsia"]
+for i in x:
+    mytl.fillcolor(mycolor[i])
+    mytl.begin_fill()
+    mytl.pendown()
+    mytl.circle(i*r)
+    mytl.end_fill()
+    mytl.left(90)
+    mytl.penup()
+    mytl.forward(r)
+    mytl.right(90)
+mytl.penup()
+mytl.goto(-110,-50)
+mytl.pendown()
+t.done()
+
+
+#素数判断
+n=int(input())
+b=1
+for i in range(2,n):
+    if n%i==0:
+        b=0
+        break
+print(b)
+
+
+1.   B 正方形
+2.   A pencolor()
+3.   B. 解释
+4.   C continue语句结束循环，继续执行循环语句的后续语句
+5.   D 3,2,1,
+6.   D [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+7.   C 可以使用from turtle import setup 引入turtle库
+8.   C 0,1,2,3,4,
+9.   B Hello
+10.   D 条件a > 0 如果修改为a &lt; 0 程序执行会进入死循环
+
+填空
+1.  表达式list(range(5))的值为     [0,1,2,3,4]      【 正确答案: [0,1,2,3,4]】。
+2.  for i in range(N,N+100):
+    if i%2==1:
+        s=     s+i      【 正确答案: s+i】
+print(s)
+3.  表达式3 in [1, 2, 3, 4]的值为     True      【 正确答案: True】。
+
+判断
+1.  假设x是含有5个元素的列表，那么切片操作x[10:]是无法执行的，会抛出异常。【错误】
+2.  无限循环对程序毫无用处【错误】
+</text>
+</view>

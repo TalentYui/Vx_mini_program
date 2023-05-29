@@ -1,0 +1,90 @@
+<!--pages/s6/s6.wxml-->
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/c0c16d1e132640bfbe9d6563169ce25f.gif?auth_key=1669703197-a03393b9e486407aada48ea5b99f24ae-578061194-ce8f0d9581a59f50ecfa7d5c1db8c1e0"></image>
+</view>
+
+<view class="ss6">
+  <text space="ensp">#回文判断
+t1=input()
+t2=list(t1)
+a=len(t2)
+b=a//2
+t4=t2[:b]
+t5=t2[b+1:a]
+t5=t5[::-1]
+s4="".join(t4)
+s5="".join(t5)
+p=t2[:b]
+q=t2[b:a]
+q=q[::-1]
+p="".join(p)
+q="".join(q)
+if s4==s5 or p==q:
+    t6='Yes'
+else:
+    t6='No'
+print(t6)
+
+
+#日期天数转换
+from datetime import*
+a,b,c=input().split()
+a,b,c=int(a),int(b),int(c)
+t1=datetime(a,b,c)
+d=a-1
+e=12
+f=31
+t2=datetime(d,e,f)
+print((t1-t2).days)
+
+
+#计算年龄
+from datetime import*
+a,b,c=input().split('.')
+a,b,c=int(a),int(b),int(c)
+d,e,f=input().split('.')
+d,e,f=int(d),int(e),int(f)
+t1=datetime(a,b,c)
+t2=datetime(d,e,f)
+k1=t2.year
+k2=t1.year
+if t2.month>=t1.month and t2.day >t1.day:
+    k=k1-k2
+else:
+    k=k1-k2-1
+print(k)
+
+
+#数字排序
+a,b,c=list(map(eval,input().split()))
+if a>b:
+    a,b=b,a
+if a>c:
+    a,c=c,a
+if b>c:
+    b,c=c,b
+print(a,b,c)
+
+
+1. C 二分支结构有一种紧凑形式，使用保留字if和elif实现
+2. A 'Hello' >'hello'
+3. A ['1', '2', '3'] is list
+4. A >>> False != 0
+5. B 分支结构可以向已经执行过的语句部分跳转
+6. C [1, 2, 3] is not float??
+7. D 分支结构可以向已经执行过的语句部分跳转
+8. A x > y > z
+9. B not (a and b) == not (a) and not (b)
+10. C 跳转结构
+
+填空
+1.  表达式 list(range(6)) 的值为     [0, 1, 2, 3, 4, 5]      【 正确答案: [0,1,2,3,4,5] 或 [0, 1, 2, 3, 4, 5]】
+2.  表达式type(3) == int的值为     True      【 正确答案: True】
+3.  表达式isinstance('abc', int)的值为     False      【 正确答案: False】。
+
+判断
+1.  在条件表达式中不允许使用赋值运算符“=”，会提示语法错误。【正确】
+2.  在Python中可以使用if作为变量名。【错误】
+</text>
+</view>

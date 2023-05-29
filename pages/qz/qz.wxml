@@ -1,0 +1,50 @@
+<!--pages/qz/qz.wxml-->
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/c0c16d1e132640bfbe9d6563169ce25f.gif?auth_key=1669703197-a03393b9e486407aada48ea5b99f24ae-578061194-ce8f0d9581a59f50ecfa7d5c1db8c1e0"></image>
+</view>
+
+<view class="sqz">
+  <text space="ensp" decode="&lt;&gt;"># 韩信
+for i in range(0,1000):
+    if i%3==2 and i%5==3 and i%7==2:
+        print(i)
+
+#水仙花
+N=int(input())
+
+for i in range(100,N+1):
+    a=i%10
+    b=i//10%10
+    c=i//100
+    if a**3+b**3+c**3==i:
+        print(i)
+
+# 统计大小写字母
+t1=input()
+t2=list(t1)
+k=0
+k1=0
+k3=0
+for i in range(len(t2)):
+    a=t2[i]
+    c=ord(a)
+    if  ord('A')&lt;=c&lt;=ord('Z') :
+        k=k+1
+
+    if ord('a')&lt;=c&lt;=ord('z'):
+        k3+=1
+    if   ord('0')&lt;=c&lt;=ord('9'):
+        k1+=1
+print(k,k3,k1)
+
+# M & N
+m,n=input().split()
+m,n=int(m),int(n)
+k=0
+for i in range(m,n+1):
+    k=k+i
+print(k)
+
+</text>
+</view>

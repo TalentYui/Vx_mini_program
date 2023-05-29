@@ -1,0 +1,40 @@
+/* pages/about/about.wxss */
+.d1{
+color:white;
+text-align:start;
+font-family: Kaiti;
+font-size: 7mm;
+letter-spacing: 0.01mm;
+
+
+}
+
+.c1{
+  width: 40%;
+  height: 300rpx;
+  margin-left: 5%;
+
+}
+
+.c2{
+  width: 102%;
+  height: 500rpx;
+
+
+}
+
+
+
+.bg{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+
+
+}
+.e1{
+  color: white;
+
+}
+

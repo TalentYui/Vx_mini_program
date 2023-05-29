@@ -1,0 +1,32 @@
+<!--pages/steam/steam.wxml-->
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/d81744ed15d64d5a8c4582742270124c.png?auth_key=1674753715-51a74b37b9ff40a7ad9d19fecae5b9fe-578061194-20d8f7acf950370210a29e82480e13eb"></image>
+</view>
+
+<text class="b1" >「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。常用本地加速 使 Steam 社区、 Github 、谷歌验证码等国内难以访问的网页正常访问。功能类似 steamcommunit302 ，使用 Titanium-Web-Proxy 开源项目进行本地反代。\n\n</text>
+
+<image class="c1" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/ac5a27151a0a49a5b354d61fededaf31.png?auth_key=1675051560-183e4702b7f840788907f69b0306ef25-578061194-ef7937d7978e66422b1aa835b7cc9ab8" ></image>
+
+<text class="b1" >\n\n\n\n「脚本配置」通过加速服务拦截网络请求将一些 JS 脚本注入在网页中，提供类似网页插件的功能。\n\n</text>
+
+<image class="c1" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/494c135563b94186952332e64bcee94a.png?auth_key=1675051560-183e4702b7f840788907f69b0306ef25-578061194-ef7937d7978e66422b1aa835b7cc9ab8"></image>
+
+<text class="b1" >\n\n\n\n「账号切换」一键切换已在当前 PC 上登录过的 Steam 账号，与管理家庭共享库排序等功能。\n\n</text>
+
+<image class="c1" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/9b2f31ea362449e99e20d408bc482faf.png?auth_key=1675051560-183e4702b7f840788907f69b0306ef25-578061194-ef7937d7978e66422b1aa835b7cc9ab8" ></image>
+
+<text class="b1" >\n\n\n\n「本地令牌」让您的手机令牌统一保存在电脑中，目前仅支持 Steam 令牌，后续会开发支持更多的令牌种类与云同步令牌。\n\n</text>
+
+<image class="c1" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/c5a3054667f54db3bfb42d90b2c16093.png?auth_key=1675051560-183e4702b7f840788907f69b0306ef25-578061194-ef7937d7978e66422b1aa835b7cc9ab8" ></image>
+
+<text class="b1" >\n\n\n\n「库存管理」让您直接管理到 Steam 游戏库存，不仅能够下载老版本的 Steam 游戏，也能够对 Steam 游戏成就进行直接管理，支持解锁成就以及反解锁成就。\n\n</text>
+
+<image class="c1" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/236faf4d67904c3fbb0ce3c05fa6462e.png?auth_key=1675051560-183e4702b7f840788907f69b0306ef25-578061194-ef7937d7978e66422b1aa835b7cc9ab8" ></image>
+
+<text class="b1" >\n\n\n\n「自动挂卡」集成 ArchiSteamFarm 在应用内提供 挂机掉落 Steam 集换式卡牌 等功能。\n\n</text>
+
+<image class="c1" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/ceb689dd47874ca9a3295aba04264865.png?auth_key=1675051560-183e4702b7f840788907f69b0306ef25-578061194-ef7937d7978e66422b1aa835b7cc9ab8" ></image>
+
+<text>\n\n\n\n</text>
+
+<image class="c2" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/dc4a691c7911481abfe0fc5fc6e5650f.png?auth_key=1675052438-6ab3424defc0439a86fa67516e3fc487-578061194-efc59ca843b1d01afdf2cb86b61f7d3e"></image>

@@ -1,0 +1,16 @@
+/* pages/s3/s3.wxss */
+
+.ss3{
+  user-select: text;
+
+
+}
+.bg{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+
+
+}
+

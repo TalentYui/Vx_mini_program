@@ -1,0 +1,95 @@
+<!--pages/s11/s11.wxml-->
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/c0c16d1e132640bfbe9d6563169ce25f.gif?auth_key=1669703197-a03393b9e486407aada48ea5b99f24ae-578061194-ce8f0d9581a59f50ecfa7d5c1db8c1e0"></image>
+</view>
+
+<view class="ss11">
+  <text space="ensp">#生兔子问题
+def f(x):
+    if x==1 or x==2:
+        return 1
+    else:
+        return f(x-1)+f(x-2)
+n=int(input())
+print(f(n))
+
+
+#利用turtle绘制六角星
+import turtle
+bianchang = int(input())
+L = bianchang
+N=6
+jiaodu=180-360/(N)
+tl=turtle.Turtle()
+tl.speed(5)
+tl.screen.delay(20)
+def f1():
+    tl.fillcolor("yellow")
+    tl.begin_fill()
+    for i in range(3):
+        tl.fillcolor()
+        tl.forward(L)
+        tl.right(120)
+    tl.end_fill()
+for i in range(N):
+    tl.left(jiaodu)
+    tl.penup()
+    tl.forward(L)
+    tl.pendown()
+    tl.right(180)
+    f1()
+tl.fillcolor("red")
+tl.begin_fill()
+for i in range(N):
+    tl.left(jiaodu)
+    tl.forward(L)
+    tl.right(180)
+tl.end_fill()
+turtle.done()
+
+
+#计算π值
+def f(x):
+    a=1/(x*2-1)
+    b=(-1)**(x+1)
+    return a*b
+n=int(input())
+t=0
+for i in range(1,n+1):
+    t+=f(i)
+r=("{:.8f}".format(t*4))
+print(r)
+
+
+#n的阶乘
+def f(x):
+    s=1
+    for i in range(1,x+1):
+        s*=i
+    return s
+n=int(input())
+print(f(n))
+
+
+1.   C 13
+2.   D 10
+3.   C f = lambda x,y:x+y 执行后，f的类型为数字类型
+4.   A 执行代码输出结果为['car', 'truck']
+5.   B 参数的值是否改变与函数中对变量的操作有关，与参数类型无关
+6.   B return不可以传递任意多个函数局部变量返回值
+7.   C 函数内部包含对本函数的再次调用
+8.   A 执行效率高
+9.   D 代码中n是可选参数
+10.   B 全局变量不能和局部变量重名
+
+填空
+1.  下面程序的运行结果是     (3,1)      【 正确答案: (3, 1)】
+2.  在函数内部可以通过关键字     global      【 正确答案: global】来定义全局变量。
+3.  查看变量类型的Python内置函数是     type()      【 正确答案: type()】。
+
+判断
+1.  函数内部定义的局部变量当函数调用结束后会被自动删除。【正确】
+2.  自定义函数中必须包含return语句。【错误】
+</text>
+</view>

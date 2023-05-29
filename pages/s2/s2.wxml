@@ -1,0 +1,67 @@
+<!--pages/s2/s2.wxml-->
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/c0c16d1e132640bfbe9d6563169ce25f.gif?auth_key=1669703197-a03393b9e486407aada48ea5b99f24ae-578061194-ce8f0d9581a59f50ecfa7d5c1db8c1e0"></image>
+</view>
+
+<view class='ss2'>
+  <text space="ensp" decode="&lt;&gt;">#三角形面积
+a,b,c=input().split()
+a,b,c=int(a),int(b),int(c)
+s=(a+b+c)/2
+S=(s*(s-a)*(s-b)*(s-c))**0.5
+print("{:.3f}".format(S))
+
+
+#计算平均值
+x,y,z=input().split()
+x=int(x)
+y=int(y)
+z=int(z)
+k=float((x+y+z)/3)
+h=int(x+y+z)
+print(h)
+print("{:.2f}".format(k))
+
+
+#整数各位数字求和
+t1=input()
+t2=list(t1)
+a=0
+for k in range(len(t2)):
+    a=a+int(t2[k])
+print(a)
+
+
+#天天向上力量
+N=int(input())
+a=1.0
+up=(a+N/1000)**365
+down=(a-N/1000)**365
+x=round(up/down)
+f=("{:.2f},{:.2f},{}".format(up,down,x))
+print(f)
+
+
+1. A 小数部分不可以为0
+2. C x**y表示x的y次幂，其中，y必须是整数
+3. A Python语言中，复数类型中实数部分和虚数部分的数值都是浮点类型，复数的虚数部分通过后缀“C”
+4. C do
+5. B py
+6. C 33_keyword
+7. C  &lt;class 'float'>
+8. B 随时命名、随时赋值、随时变换类型
+9. B 3.14    3
+10. B 10
+
+填空
+1. Python语言中，求几次方的运算使用的是     **      【 正确答案: **】符号。
+2. Python语言中，求余数使用的是     %      【 正确答案: % 或 百分号】符号。
+3. 上述语句的输出是     2      【 正确答案: 2】
+
+判断
+1. 变量的名字。变量名Tea和变量名tea是相同的。【错误】
+2. 程序中，电话号码应该处理成整数类型。【错误】
+</text>
+</view>
+

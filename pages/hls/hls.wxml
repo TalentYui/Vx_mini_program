@@ -1,0 +1,45 @@
+
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gdesign-dam.dancf.com/23120037418782797/e415b9a2a3cb4fefb6e372e38a836da5.jpg?auth_key=1681401840-bd3c35955d42436580b071108634b04c-9019623401519720483-7f986d3ad2b8906834c43f3652f275da"></image>
+</view>
+
+
+<text>\n\n</text>
+
+<view class="container">
+
+
+  <view class="title">四阶行列式计算器</view>
+  <text class="c1">(低阶你可以乘个单位一嘛)</text>
+  <text>\n\n\n</text>
+
+  <view class="input-group">
+    <view class="input-title">第一行元素：</view>
+    <input class="input" bindinput="onInput1" placeholder="要用英文逗号 “ , ” " />
+  </view>
+<text>\n</text>
+
+  <view class="input-group">
+    <view class="input-title">第二行元素：</view>
+    <input class="input" bindinput="onInput2" placeholder="例如：5,6,7,8" />
+  </view>
+  <text>\n</text>
+
+  <view class="input-group">
+    <view class="input-title">第三行元素：</view>
+    <input class="input" bindinput="onInput3" placeholder="例如：9,10,11,12" />
+  </view>
+  <text>\n</text>
+
+  <view class="input-group">
+    <view class="input-title">第四行元素：</view>
+    <input class="input" bindinput="onInput4" placeholder="例如：13,14,15,16" />
+  </view>
+  <text>\n\n</text>
+
+  <view class="result-group">
+    <view class="result-title">计算结果：</view>
+    <view class="result">{{result}}</view>
+  </view>
+</view>

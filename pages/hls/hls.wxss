@@ -1,0 +1,62 @@
+
+.bg{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  
+
+
+}
+.container {
+  padding: 20rpx;
+}
+
+.title {
+  font-size: 32rpx;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20rpx;
+  color: #ccc;
+}
+.c1{
+  color: #ccc;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10rpx;
+  color: #ccc;
+}
+
+.input-title {
+  font-size: 28rpx;
+  width: 200rpx;
+}
+
+.input {
+  flex: 1;
+  border: 1rpx solid #ccc;
+  padding: 10rpx;
+  font-size: 28rpx;
+}
+
+.result-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ccc;
+}
+
+.result-title {
+  font-size: 28rpx;
+  width: 200rpx;
+}
+
+.result {
+  font-size: 28rpx;
+  color: #f00;
+  font-weight: bold;
+}

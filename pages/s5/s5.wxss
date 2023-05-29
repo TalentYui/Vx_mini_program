@@ -1,0 +1,15 @@
+/* pages/s5/s5.wxss */
+
+.ss5{
+  user-select: text;
+
+
+}
+.bg{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+
+
+}

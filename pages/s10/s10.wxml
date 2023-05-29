@@ -1,0 +1,94 @@
+<!--pages/s10/s10.wxml-->
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/c0c16d1e132640bfbe9d6563169ce25f.gif?auth_key=1669703197-a03393b9e486407aada48ea5b99f24ae-578061194-ce8f0d9581a59f50ecfa7d5c1db8c1e0"></image>
+</view>
+
+<view class="ss10">
+  <text space="ensp">#回文数
+a,b=input().split()
+a,b=int(a),int(b)
+for i in range(a,b+1):
+    i=str(i)
+    t2 = list(i)
+    a = len(t2)
+    b = a // 2
+    t4 = t2[:b]
+    t5 = t2[b + 1:a]
+    t5 = t5[::-1]
+    s4 = "".join(t4)
+    s5 = "".join(t5)
+    p = t2[:b]
+    q = t2[b:a]
+    q = q[::-1]
+    p = "".join(p)
+    q = "".join(q)
+    if s4 == s5 or p == q:
+        print(i)
+
+
+#各位数字和
+t1=input()
+t2=list(t1)
+a=0
+for k in range(len(t2)):
+    a=a+int(t2[k])
+print(a)
+
+
+#基于turtle库自定义绘制圆形函数来绘制同心彩色圆形
+import turtle as t
+t.speed(1)
+mytl=t.Turtle()
+r=20
+x = range(9,0,-1)
+mycolor=["pink","purple","red","blue","yellow","orange","coral","brown","yellow","fuchsia"]
+for i in x:
+    mytl.fillcolor(mycolor[i])
+    mytl.begin_fill()
+    mytl.pendown()
+    mytl.circle(i*r)
+    mytl.end_fill()
+    mytl.left(90)
+    mytl.penup()
+    mytl.forward(r)
+    mytl.right(90)
+mytl.penup()
+mytl.goto(-110,-50)
+mytl.pendown()
+t.mainloop()
+
+
+#判断素数
+def f(x):
+    b=1
+    for i in range(2,x):
+        if x%i==0:
+            b=0
+            break
+    return b
+n=int(input())
+print(f(n))
+
+
+1.   B def vfunc(*a,b):
+2.   B lambda不是Python的保留字
+3.   C 程序在调用时，将实参复制给函数的形参
+4.   D 接受用户输入的整数N，输出N的阶乘值
+5.   D 代码中n是可选参数
+6.   C 可选参数可以定义在非可选参数的前面
+7.   B 函数可以没有return语句
+8.   B f(1, x = 1, z = 3)
+9.   A 函数能调用未实现的函数
+10.   C 函数名称不可赋给其他变量
+
+填空
+1.  Python内置函数     len()      【 正确答案: len()】可以返回列表、元组、字典、集合、字符串以及range对象中元素个数。
+2.  查看对象内存地址的Python内置函数是     id()      【 正确答案: id()】。
+3.  已知 f = lambda x: x+5，那么表达式 f(3) 的值为     8      【 正确答案: 8】
+
+判断
+1.  定义函数时，即使该函数不需要接收任何参数，也必须保留一对空的圆括号来表示这是一个函数。【正确】
+2.  每次使用函数需要提供相同的参数作为输入。【错误】
+</text>
+</view>

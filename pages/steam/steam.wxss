@@ -1,0 +1,28 @@
+/* pages/steam/steam.wxss */
+.bg{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+
+
+}
+.b1{
+  color: aliceblue;
+  text-align: left;
+
+}
+
+.c1{
+  width: 80%;
+  height: 370rpx;
+  margin-left: 10%;
+
+}
+
+.c2{
+  width: 40%;
+  height: 300rpx;
+  margin-left: 30%;
+
+}

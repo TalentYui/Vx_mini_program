@@ -1,0 +1,70 @@
+<!--pages/blog/blog.wxml-->
+
+
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/8c2fb996278e4446a6b29251b34589bd.png?auth_key=1669701041-51b49ec1c9964911b206af3306258ab1-578061194-0715958f9485c3c2c7ecbfb845d96684"></image>
+</view>
+
+
+
+
+<image class="c2" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/426a97634a264584a6eed6de52e87e08.png?auth_key=1674553234-6fd7ca02acc84eea98d0e9b0e3956bda-578061194-eee3fdb5d1eeef6ffe083d421eecb9cc" ></image>
+
+
+<image class="c5" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/aee13e33b7194e00a9e9635b48d29c85.gif?auth_key=1674743336-a75b1b7dc15740269fe9906bd29d1f68-578061194-d603286a391b6141329f689817e597a2" ></image>
+
+
+<view class='c3' bindtap="s1" >
+    <text class='text'  >常言道：“众生平等百度云”即使是5G，给你几十k算给你面子。百度网盘作为国内用户量最多的网盘，但由于限速，成为了许多用户的痛点，除了PanDownload还有很多选择,Aria2...</text>
+
+    <view class="c4" >
+      <text  decode="&nbsp;" >详细信息&nbsp;▶</text>
+    </view>
+    
+    
+</view>
+
+<text>\n</text>
+
+<view class='c3' bindtap="s2" >
+    <text class='text'  >告别360压缩、2345好压、WinRAR，无论专业还是UI这款Bandzip快速、免费、整洁、无广告，超多格式，密码破解...</text>
+
+    <view class="c4" >
+      <text  decode="&nbsp;" >详细信息&nbsp;▶</text>
+    </view>
+    
+</view>
+
+<text>\n</text>
+
+<view class='c3' bindtap="s3" >
+    <text class='text'  >电脑运行内存不够？RAMmap强大的Windows内存释放工具，一键释放电脑运存,各种系统内存分区，分页池、非分页池、硬盘空间、内核堆栈...</text>
+
+    <view class="c4" >
+      <text  decode="&nbsp;" >详细信息&nbsp;▶</text>
+    </view>
+    
+</view>
+
+<text>\n</text>
+
+<view class='c3' bindtap="s4" >
+    <text class='text'  >还在手动刷课？最强浏览器插件Tampermonkey 免费浏览器扩展，最为流行的脚本管理器，适用于 Chrome, Microsoft Edge, Safari, Opera Next, Firefox,便捷脚本安装、自动更新检查、运行状况速览、内置编辑器， 同时能正常运行原本并不兼容的脚本...</text>
+
+    <view class="c4" >
+      <text  decode="&nbsp;" >详细信息&nbsp;▶</text>
+    </view>
+    
+</view>
+
+<text>\n</text>
+
+<view class='c3' bindtap="s5" >
+    <text class='text'  >「Steam++」（Watt Toolkit）包含多种Steam功能的工具箱，快速切换账号、提高加载速度和链接steam服务器的速度、成就统计、强制游戏无边框窗口化，还能为Twitch、GitHub和Discard等加速...</text>
+
+    <view class="c4" >
+      <text  decode="&nbsp;" >详细信息&nbsp;▶</text>
+    </view>
+    
+</view>

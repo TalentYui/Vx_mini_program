@@ -1,0 +1,100 @@
+/* pages/sys/sys.wxss */
+.p {
+  color: rgba(169, 32, 233, 0.911);
+  font-size: 7mm;
+  opacity: 0.5;
+  width: 85%;
+  height: 18rem;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+  margin-left: 4.5%;
+  border-top: 1px solid rgb(255, 255, 255); /* 设置上边框 */
+  border-bottom: 1px solid rgb(255, 255, 255); /* 设置下边框 */
+  border-left: 1px solid rgb(255, 255, 255); /* 设置左边框 */
+  border-right: 1px solid rgb(255, 255, 255); /* 设置右边框 */
+  background-color: #ebe5c6a1;
+}
+
+.counter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 30px;
+  margin-top: 305px;
+  font-size: 14px;
+  color: rgb(230, 36, 230);
+}
+
+
+
+
+.p2 {
+  color:  rgba(169, 32, 233, 0.911);
+  font-size: 5mm;
+  opacity: 0.5;
+  width: 85%;
+  height: 2rem;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+  margin-left: 4.5%;
+  border-top: 1px solid rgb(255, 255, 255); /* 设置上边框 */
+  border-bottom: 1px solid rgb(255, 255, 255); /* 设置下边框 */
+  border-left: 1px solid rgb(255, 255, 255); /* 设置左边框 */
+  border-right: 1px solid rgb(255, 255, 255); /* 设置右边框 */
+  background-color: #ebe5c6a1;
+}
+
+.p3 {
+  color:  rgba(169, 32, 233, 0.911);
+  font-size: 5mm;
+  opacity: 0.5;
+  width: 85%;
+  height: 9rem;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+  margin-left: 4.5%;
+  border-top: 1px solid rgb(255, 255, 255); /* 设置上边框 */
+  border-bottom: 1px solid rgb(255, 255, 255); /* 设置下边框 */
+  border-left: 1px solid rgb(255, 255, 255); /* 设置左边框 */
+  border-right: 1px solid rgb(255, 255, 255); /* 设置右边框 */
+  background-color: #ebe5c6a1;
+}
+
+
+
+.c1{
+  width: 200rpx;
+  height: 250rpx;
+  margin-left: 66%;
+  margin-top: 130%;
+  position: absolute;
+  
+
+
+
+
+}
+.bg{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+
+
+}
+.btn{
+  height: 100rpx !important;
+  width: 30% !important;
+  margin-top: 9mm;
+  border-radius: 20rpx;
+  background: linear-gradient(to right, #139ae2, #c63ae9);
+  color: rgb(213, 235, 88);
+  font-size: 6mm;
+  font-family: cursive;
+  
+
+
+}

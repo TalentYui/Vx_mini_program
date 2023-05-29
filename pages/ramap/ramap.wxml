@@ -1,0 +1,34 @@
+<!--pages/ramap/ramap.wxml-->
+
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/d81744ed15d64d5a8c4582742270124c.png?auth_key=1674753715-51a74b37b9ff40a7ad9d19fecae5b9fe-578061194-20d8f7acf950370210a29e82480e13eb"></image>
+</view>
+
+<text class="b1" >RAMmap是微软开发的一款内存清理大神级别的软件，非常实用，不像某60或其他杀软，它们清理内存的效率太低了，每次双击加速球，内存清理也就只有几mb或几kb，但是RAMmap可以一次清理达几GB的效率\n</text>
+
+<image class="c1" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/6af3a21b373340fa8e2c92f228464567.png?auth_key=1674918722-76cf7f700be64c5caec7ce33e225c70e-578061194-7dd07d083e9970ec91055b886f86b930" ></image>
+
+
+<text class="b1" >\n\n\n\n运行RAMmap，显示主界面，和资源监视器中的内存分析工具差不多，不过显示的信息更为详细。水平图主要是按基本类型活动内存、备用内存等分。
+垂直图则按照映射文件、可共享等区分。\n</text>
+
+<image class="c1" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/26a786f76d674a39b16aa5b32cb32061.png?auth_key=1674919224-cfb33bfff45a4478ad6441600044addd-578061194-c4b9073ac4cec3431f5501d01304df8b" ></image>
+
+
+<text class="b1" >\n\n\n\n小白不用考虑太多直接Empty清理五个项\n</text>
+
+<image class="c2" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/0a5fffe12e9241d0a0671dd624224712.png?auth_key=1674919224-cfb33bfff45a4478ad6441600044addd-578061194-c4b9073ac4cec3431f5501d01304df8b" ></image>
+
+<text class="b1" >\n\n\n清理完成之后最好重启下电脑，效果显著\n</text>
+
+<image class="c3" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/443e431d1ef341359ebeffe97549a895.png?auth_key=1674919652-408abca1703745fe9063dec502bbf7b6-578061194-f3d24600a03a5af7f1f2f98a9a3eb6db"></image>
+
+<text class="b1" >\n\n电脑运存占用逐渐变多是因为某些软件没有正常关闭或者软件本身就有些问题导致产生虚拟或缓存等，另外如windows更新等活动，会占用电脑后台，导致每次电脑刚打开内存就被占三四成，及时清理有助于提高其它软件效率\n</text>
+
+<text class="b1">\n\n\n\n以上资源整理至百度云，提取码4931\n</text>
+
+<image class="c4" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/7edef8d820ca459d8acd0f78b6f80b68.png?auth_key=1674920546-f3612854807b4c22a39f6b60b166840b-578061194-29fe5df4c2d1fc930ff6ab7e90265e1c" ></image>
+
+
+<text class="b1" >\n免责声明：以上软件为个人收藏，仅限用于学习和研究目的；不得将上述内容用于商业或者非法用途，否则，一切后果请用户自负。软件来自网络，版权争议与本人无关，您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。访问和下载此文件，说明您已同意上述条款。\n\n</text>

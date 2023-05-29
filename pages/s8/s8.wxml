@@ -1,0 +1,74 @@
+<!--pages/s8/s8.wxml-->
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/c0c16d1e132640bfbe9d6563169ce25f.gif?auth_key=1669703197-a03393b9e486407aada48ea5b99f24ae-578061194-ce8f0d9581a59f50ecfa7d5c1db8c1e0"></image>
+</view>
+
+<view class="ss8">
+  <text space="ensp" decode="&lt;&gt;">#求水仙花数
+N=int(input())
+for i in range(100,N+1):
+    a=i//100
+    b=(i-a*100)//10
+    c=(i-a*100-b*10)
+    if a**3+b**3+c**3==i:
+        print(i)
+
+
+#找最大最小整数
+a=int(input())
+t1 = list(map(int, input().split(" ")))
+print(max(t1),min(t1))
+
+
+#换钱的交易
+n=int(input())
+a=1
+b=n*100000
+for i in range(n):
+    a=a+2**i
+print(b)
+print(a-1)
+
+
+#分别统计输入中字母、数字的个数
+t1=input()
+t2=list(t1)
+k=0
+k1=0
+for i in range(len(t2)):
+    a=t2[i]
+    c=ord(a)
+    if  ord('A')&lt;=c&lt;=ord('Z') or  ord('a')&lt;=c&lt;=ord('z'):
+        k=k+1
+    if   ord('0')&lt;=c&lt;=ord('9'):
+        k1+=1
+print(k,k1)
+
+
+1.   C 7.0
+2.   B. 每个continue语句只有能力跳出当前层次的循环
+3.   B. while 1&lt;10:  time.sleep（10）
+4.   B 1,3,5,7,9,
+5.   A 系统报错
+6.   C break用来结束当前当次语句，但不跳出当前的循环体
+7.   B. 10
+8.   C P y t h o n
+9.   D 无限循环无法实现遍历循环的功能
+10.   C 无限循环需要提前确定循环次数
+
+填空
+1.  n=eval(input())
+
+for i in range(1,     n+1      【 正确答案: n+1】,2):
+
+    print("*" * i)
+
+2.  对于带有else子句的for循环和while循环，当循环因循环条件不成立而自然结束时     会      【 正确答案: 会】(会？不会？)执行else中的代码。
+
+判断
+1.  在Python 3.x中，使用内置函数input（)接收用户输入时，不论用户输入的什么格式，一律按字符串进行返回。【正确】
+2.  如果仅仅是用于控制循环次数，那么使用for i in range(20)和for i in range(20, 40)的作用是等价的。【正确】
+3.  如果用户希望输入一个数字，并用程序对这个数字进行计算，可以采用eval(input(&lt;输入提示字符串>))组合。【正确】
+</text>
+</view>

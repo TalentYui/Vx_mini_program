@@ -1,0 +1,79 @@
+<!--pages/s4/s4.wxml-->
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/c0c16d1e132640bfbe9d6563169ce25f.gif?auth_key=1669703197-a03393b9e486407aada48ea5b99f24ae-578061194-ce8f0d9581a59f50ecfa7d5c1db8c1e0"></image>
+</view>
+
+<view class="ss4">
+  <text space="ensp" decode="&lt;&gt;">#列表求和
+t1=input().split(',')
+t2=list(t1)
+a=0
+for i in range(len(t2)):
+    a=a+int(t2[i])
+print(a)
+
+
+#自动生成列表
+a,b=input().split(' ')
+a,b=int(a),int(b)
+c=range(a,b+1)
+d=list(c[::2])
+print(d)
+print(len(d))
+
+
+#字符串合并与拆分
+s1=input().split(',')
+s2="".join(s1)
+s3=s2.upper()
+S4=list(s3)
+print(s3)
+print(S4)
+
+
+#整数合并
+a,b=input().split()
+a,b=(int(a),int(b))
+t1=a//10
+a2=a-t1*10
+t2=a2//1
+t3=b//10
+b2=b-t3*10
+t4=b2/1
+x=a2*1000
+y=b2*100
+z=t1*10
+w=t3
+print(x+y+z+w)
+
+
+1. C alex_eric_rain
+2. D  &lt;class 'dict'>
+3. C [1, 2, 3, 4, 5, 6]
+4. A  &lt;class 'set'>? ? ?
+5. C kelly
+6. A [1, 2, 3]
+7. A Python字符串提供区间访问方式，采用[N:M]格式，表示字符串中从N到M的索引子字符串（包含N和M）
+8. D [1, 3, 2, 4]
+9. A 6 brown tomato
+10. B print(TempStr[–5:])
+
+填空
+1.  表达式[1, 2, 3]*3的值为     [1, 2, 3, 1, 2, 3, 1, 2, 3]      【 正确答案: [1,2,3,1,2,3,1,2,3]】。
+2.  (1)     执行上述代码后，第一个元素的值是     '嘉陵'      【 正确答案: '嘉陵'】。
+
+     (2)    第三个元素的值是     'suzuki'      【 正确答案: 'suzuki'】。
+
+     (3) 最后，motorcycles列表一共有     5      【 正确答案: 5】个元素。
+3. (1)    执行第一行代码后，motorcycles列表有     5      【 正确答案: 5】个元素。
+
+    (2)    执行全部四行代码后，motorcycles列表有     6      【 正确答案: 6】个元素。
+
+    (3)    执行全部代码后，motorcycles列表的最后一个元素的值是     '哈雷'      【 正确答案: '哈雷' 或 哈雷】。
+
+判断
+1.  列表的构成。列表中的元素的类型必须一致。【错误】
+2.  访问列表。访问names列表的第1个元素，写法是names[1]。【错误】
+</text>
+</view>

@@ -1,0 +1,59 @@
+<!--pages/about/about.wxml-->
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/8c2fb996278e4446a6b29251b34589bd.png?auth_key=1669701041-51b49ec1c9964911b206af3306258ab1-578061194-0715958f9485c3c2c7ecbfb845d96684"></image>
+</view>
+
+ 
+
+
+
+
+<image class="c2" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/914f347530b34d6da7ee4b6258f700d8.jpg?auth_key=1669610507-d018c03b934b49bc9efd245a4813cc29-578061194-5a20e6ea001d846d5cd8bf8890632592" ></image>
+
+
+
+
+
+
+
+
+<text>————————————————————————————————————————</text>
+
+<image class="c1" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/4de21baeeebb454482dc9a46e81764d8.png?auth_key=1674922061-8ac4b9a48ee44dfca328e1c690384001-578061194-4013803684e67a14aed903e28646b5c2" ></image>
+
+<image class="c1" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/7e464a5ca0b84c58ba2276dbf4f6f1ec.png?auth_key=1674922061-8ac4b9a48ee44dfca328e1c690384001-578061194-4013803684e67a14aed903e28646b5c2" ></image>
+
+
+<text>————————————————————————————————————————</text>
+
+
+
+<view class="e1">
+
+  <text decode="&nbsp;"> version 1.5.0
+  &nbsp;作者：思宇姓张
+    
+  &nbsp;&nbsp;&nbsp;//代码支持复制
+  &nbsp;&nbsp;&nbsp;//优化后端接口
+  &nbsp;&nbsp;&nbsp;//修复代码输入限制
+  &nbsp;&nbsp;&nbsp;//写入转发分享
+  &nbsp;&nbsp;&nbsp;//UI不优化了，放弃了
+  &nbsp;&nbsp;&nbsp;//python服务器有时会繁忙
+  &nbsp;&nbsp;&nbsp;//作者闭关，长期停更
+  </text>
+  
+</view>
+
+
+<text>————————————————————————————————————————</text>
+
+<view class="e1">
+  <text>初学 html javascript 做的很糙 写着玩的
+    部分机型可能图像比例有点奇怪，等下次更新优化下。。
+    「ChatGpt」 这是一个个人博客小程序，主要用于分享各种好用的软件和脚本，包括但不限于电脑技巧，小工具等。用户可以通过这个小程序了解到各种有用的信息，提高电脑使用效率。小程序会不定期更新，为用户提供最新的内容。小程序的制作人是一名初学者，所以小程序界面可能不是很精美，但是内容是经过筛选和实测的，可以保证内容的有效性和实用性。
+  </text>
+
+</view>
+
+<text>————————————————————————————————————————</text>

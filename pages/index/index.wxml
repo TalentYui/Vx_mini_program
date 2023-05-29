@@ -1,0 +1,49 @@
+<!--index.wxml-->
+
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/8c2fb996278e4446a6b29251b34589bd.png?auth_key=1669701041-51b49ec1c9964911b206af3306258ab1-578061194-0715958f9485c3c2c7ecbfb845d96684"></image>
+</view>
+
+
+<text>\n\n\n\n\n\n\n\n\n\n\n\n\n</text>
+
+
+
+
+
+<button class="b1" open-type="contact" bindcontact="handleContact" type="primary" size="default" style="width: 50px; height: 200px; writing-mode: vertical-rl; text-orientation: mixed; color: rgb(238, 221, 65); font-family: Arial;">客服</button>
+
+<view class="container">
+  <button class="login-btn" bindtap="login">登录开启所有服务</button>
+  <image class="avatar" src="{{avatarUrl}}"></image>
+  <view class="username">{{nickName}}</view>
+  <image class="jump-btn" bindtap="jumpToPage" wx:if="{{isLogin}}" src="https://gdesign-dam.dancf.com/23120037418782797/501ab8f46a3f47d6b53b1dbde7a09048.png?auth_key=1679233540-96c05cc98ecf49da9574dd0fbb8c4a89-9019623401519720483-86651c328b4de3d85a9ae1176fa48aa1"></image>
+</view>
+
+
+
+<image class="c5" src="https://gdesign-dam.dancf.com/22236791267018826/c6fbb5e598d44757a333b1d603c9b4ef.gif?auth_key=1679234269-96a51edaf10346a5baf36e1dfb18ec55-9019623401519720483-2a08fabd31dd28d945f80494776c51ed" ></image>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

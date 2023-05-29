@@ -1,0 +1,88 @@
+<!--pages/s3/s3.wxml-->
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/c0c16d1e132640bfbe9d6563169ce25f.gif?auth_key=1669703197-a03393b9e486407aada48ea5b99f24ae-578061194-ce8f0d9581a59f50ecfa7d5c1db8c1e0"></image>
+</view>
+
+<view class='ss3'>
+  <text space="ensp">#人民币兑换
+t2=int(input())
+a=t2//10
+t3=t2-a*10
+b=t3//5
+t4=t3-b*5
+c=t4//2
+d=t4-c*2
+print(a,b,c,d)
+
+
+#前驱后继
+t1=ord(input())
+a=t1+1
+b=t1-1
+k1=chr(t1)
+k2=chr(a)
+k3=chr(b)
+print(k3,k1,k2)
+print(b,t1,a)
+
+
+#字符串偶数位置截取输出
+t1=input()
+t2=str.lower(t1)
+a=t2[::2]
+print(a[::-1])
+
+
+#英文诗歌统计
+
+t1='''All that doth flow we cannot liquid name
+
+Or else would fire and water be the same;
+
+But that is liquid which is moist and wet
+
+Fire that property can never get.
+
+Then 'tis not cold that doth the fire put out
+
+But 'tis the wet that makes it die, no doubt.'''
+a=len(t1)
+b=t1.find("the")
+c=t1.rfind("the")
+d=t1.count("the")
+e=t1.isalpha()
+f=t1.isdigit()
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+
+
+1. D 'Happy Birthday to you!Happy Birthday to you!Happy Birthday to you!'
+2. B beh
+3. D The python language is a general language.
+4. D 40
+5. B ['The', 'python', 'language', 'is', 'a', 'multimodel', 'language.']
+6. B ===============Python等级考试
+7. B ‘y’
+8. B alex,Alex
+9. B Python字符编码使用ASCII编码
+10. A 0
+
+填空
+1.  语句：result="it's" + 9 执行后，结果是      报错      【 正确答案: 报错 或 出错 或 错误 或 执行错误 或 执行报错】
+2.  第2行代码输出的是     name      【 正确答案: name】。这里单引号括起来的name是字符串字面量。
+
+    第3行代码输出的是     Robert      【 正确答案: Robert】。这里name是     字符串变量      【 正确答案: 变量 或 变量名 或 字符串变量】。
+
+判断
+1.  Python程序中，"22"是一个数字，可以做数学意义上的加减法。【错误】
+2.  要输出name字符串的长度，下面的用法是正确的。print(name.length() )【错误】
+</text>
+</view>
+
+
+

@@ -1,0 +1,16 @@
+/* pages/s11/s11.wxss */
+
+.ss11{
+  user-select: text;
+
+
+}
+
+.bg{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+
+
+}

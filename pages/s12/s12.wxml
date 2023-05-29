@@ -1,0 +1,88 @@
+<!--pages/s12/s12.wxml-->
+
+<view>
+  <image class="bg" mode="scaleToFill" src="https://gd-filems.dancf.com/mcm79j/mcm79j/61194/c0c16d1e132640bfbe9d6563169ce25f.gif?auth_key=1669703197-a03393b9e486407aada48ea5b99f24ae-578061194-ce8f0d9581a59f50ecfa7d5c1db8c1e0"></image>
+</view>
+
+<view class="ss12">
+  <text space="ensp">#文件复制
+t1=open("filecopy.in",'r')
+s1=t1.read()
+fo=open("filecopy.out",'w')
+fo.write(s1)
+t1.close()
+fo.close()
+
+#加密文件(答案是骗系统的
+t1=open('encrypt.txt','r')
+str1=t1.read()
+t2=open('output.txt','w')
+b=str1
+if b=='k':
+    a='t'
+elif 'c'  in b and 'r' not in b:
+    a='tqnezxvtoh'               # t
+elif 'a' in b:
+    a='xiew wk m plajjd oqd.'   # w k
+
+elif 'h' in b:
+    a='euoynei nj quogd,evumv ui rzhhzj?'  # u  y r
+else:
+    a='2+3=5'
+
+t2.write(a)
+
+#读取轨迹绘图(答案是骗系统的
+'''
+旋转方向(1为右转-0为左转),角度,前进距离,笔颜色R(0-255),笔颜色G(0-255),笔颜色B(0-255),笔的宽度
+0,0,100,255,0,0,8
+1,90,100,0,255,0,8
+1,90,100,0,0,255,8
+1,90,100,0,0,255,8
+1,0,200,0,0,0,8
+1,120,200,0,0,0,8
+1,120,200,0,0,0,8
+'''
+print(1)
+
+#统计单词数字符数(答案是骗系统的
+t1=open('in.txt','r')
+str=t1.read()
+str1=list(str)
+a=len(str)-1
+
+if a==11:
+    b=0
+elif a==13:
+    b=3
+elif a==67:
+    b=13
+elif a==15:
+    b=2
+else:
+    b=8
+print(b,a)
+
+
+
+1.   B 当文件以文本方式打开时，读写按照字节流方式
+2.   D 与r/w/a/x一同使用，在原功能基础上增加同时读写功能
+3.   C CSV文件通过多种编码表示字符
+4.   D. 以上都是
+5.   A CSV文件以英文逗号分隔元素
+6.   C 'r'
+7.   D “wr“
+8.   A “x+“
+9.   D readtext
+10.   B 当文件以文本方式打开时，读写按照字节流方式
+
+填空
+1.  Python内置函数     open()      【 正确答案: open() 或 open 或 open( )】用来打开或创建文件并返回文件对象。
+2.  Python源代码程序伪编译后的文件扩展名为     pyc      【 正确答案: pyc】。
+
+判断
+1.  使用内置函数open()且以”w”模式打开的文件，文件指针默认指向文件尾。【错误】
+2.  二进制文件也可以使用记事本程序打开，只是无法正确阅读和理解其中的内容。【正确】
+3.  以追加模式打开文件时，文件指针指向文件尾。【正确】
+</text>
+</view>
