@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/python/python",
+    "pages/s1/s1",
+    "pages/s2/s2",
+    "pages/s3/s3",
+    "pages/s4/s4",
+    "pages/s5/s5",
+    "pages/s6/s6",
+    "pages/s7/s7",
+    "pages/s8/s8",
+    "pages/s9/s9",
+    "pages/s10/s10",
+    "pages/s11/s11",
+    "pages/s12/s12",
+    "pages/qm/qm",
+    "pages/qz/qz",
+    "pages/blog/blog",
+    "pages/dupan/dupan",
+    "pages/bzip/bzip",
+    "pages/ramap/ramap",
+    "pages/tmonkey/tmonkey",
+    "pages/steam/steam",
+    "pages/sys/sys",
+    "pages/py3/py3",
+    
+    "pages/hls/hls"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#7c5dd6",
+    "navigationBarTitleText": "Python实验答案源码",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#7c5dd6"
+  },
+  "tabBar": {
+    "selectedColor": "#ffd700",
+    "color": "#ADD8E6",
+    "backgroundColor": "#7c5dd6",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/home1.png",
+        "selectedIconPath": "static/icon/home2.png"
+      },
+      {
+        "pagePath": "pages/blog/blog",
+        "text": "Blog",
+        "iconPath": "static/icon/blog1.png",
+        "selectedIconPath": "static/icon/blog2.png"
+      },
+      {
+        "pagePath": "pages/sys/sys",
+        "text": "实验室",
+        "iconPath": "static/icon/sys2.png",
+        "selectedIconPath": "static/icon/sys1.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "static/icon/关于1.png",
+        "selectedIconPath": "static/icon/关于2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
