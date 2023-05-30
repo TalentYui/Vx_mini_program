@@ -4,7 +4,7 @@
 
 客服 需要在后台添加【微信公众平台https://mp.weixin.qq.com/】
 
-pages/py3/py3.js 里的接口换成自己的：
+pages/py3/py3.js 里的接口换成自己的： 
 注册域名（国内的需要ICP备案）
 部署py后端
 域名指向后端程序端口
