@@ -109,7 +109,7 @@ Page({
   onRun: function () {
     wx.request({
       url:
-        'https://www.zsynb.online:52100',
+        '填自己的接口，请求头要用https的，域名加入白名单，国内域名需要ICP备案，后端源码在项目里有',
       data: {
         varName: this.data.varName,
         stdin: this.data.stdin,
